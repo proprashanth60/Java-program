@@ -1,6 +1,6 @@
 package com.tnsif.accessmodifier;
 
-public class publicdemo {
+public class Publicdemo {
 	public int a = 9; // data member
 		private String b = "Pro";
 
@@ -13,7 +13,7 @@ public class publicdemo {
 		}
 
 		public static void main(String[] args) {
-			publicdemo p = new publicdemo();
+			Publicdemo p = new Publicdemo();
 
 			System.out.println(p.a);
 			System.out.println(p.b);
