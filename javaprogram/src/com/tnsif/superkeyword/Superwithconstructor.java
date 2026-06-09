@@ -4,7 +4,7 @@ package com.tnsif.superkeyword;
 
 class User1 {
 	User1() {
-		System.out.println("user acc created...");
+		System.out.println("user account created...");
 	}
 }
 
