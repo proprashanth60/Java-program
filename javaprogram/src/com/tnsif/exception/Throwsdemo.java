@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Throwsdemo {
 	static void test() throws IOException,ClassNotFoundException{
-		FileReader file=new FileReader("abc.txt");//may thow io
+		FileReader file=new FileReader("abc.txt");//may throw io
 		Class.forName("test");
 		file.close();
 	}
